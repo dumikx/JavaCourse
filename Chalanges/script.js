@@ -13,5 +13,9 @@ console.log(bmiMark);
 console.log(bmiJohn);
 console.log(markHigherBMI);
 
+if (bmiMark>bmiJohn){console.log(`Mark's BMI (${bmiMark.toFixed(1)})is higher than John's ${bmiJohn.toFixed(1)}`)
 
+}else{console.log(`John's BMI(${bmiJohn.toFixed(1)}) BMI is higher than Mark's ${bmiMark.toFixed(1)}`)
+
+}
 
