@@ -132,7 +132,7 @@ console.log(`string
 multiple
 lines`)*/
 
-const age = 15;
+/*const age = 15;
 
 
 if (age >= 18) {
@@ -150,4 +150,4 @@ if (birthYear <= 2000) {
     century = 21
 }
 
-console.log(century)
+console.log(century)*/
