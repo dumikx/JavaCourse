@@ -36,7 +36,7 @@ if (winnerDolphins && averageDolphins>=100){
 } else if (winnerKoalas && averageKoalas>=100){
     console.log(`WinnerKoalas`)
 } else if (draw && bothTeamsMinScore){
-    console.log(`Draw`)
+    console.log(`Draw! Both win`)
 } else if (!bothTeamsMinScore){
     console.log(`No winner`)
 }
