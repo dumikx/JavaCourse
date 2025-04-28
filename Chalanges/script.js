@@ -1,6 +1,6 @@
 //data 1
 
-let massMark = 78;
+/*let massMark = 78;
 let massJohn= 92;
 const heightMark=1.69;
 const heightJohn=1.95;
@@ -19,3 +19,24 @@ if (bmiMark>bmiJohn){console.log(`Mark's BMI (${bmiMark.toFixed(1)})is higher th
 
 }
 
+*/
+
+let averageDolphins=(96,108,89)/3;
+let averageKoalas=(88,91,110)/3;
+
+const winnerDolphins=averageDolphins>averageKoalas;
+const winnerKoalas=averageKoalas>averageDolphins;
+const draw = averageDolphins===averageKoalas;
+const bothTeamsMinScore= averageDolphins >= 100 && averageKoalas >= 100
+const minScore = 100
+
+
+if (winnerDolphins && averageDolphins>=100){
+    console.log(`WinnerDolphins`)
+} else if (winnerKoalas && averageKoalas>=100){
+    console.log(`WinnerKoalas`)
+} else if (draw && bothTeamsMinScore){
+    console.log(`Draw`)
+} else if (!bothTeamsMinScore){
+    console.log(`No winner`)
+}
