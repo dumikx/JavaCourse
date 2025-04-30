@@ -1,8 +1,26 @@
-const country = 'Romania'
+function describeCountry (country,population,capitalCity) {
+    const asiString = `${country} has ${population} milion people and its 
+    capital city is ${capitalCity}`
+    return asiString;
+
+}
+const romaniaDescription = describeCountry(`romania`,6,`bucuresti`)
+console.log(romaniaDescription)
+
+const finlandDescription = describeCountry(`finland`,6,`Helsinki`)
+console.log(finlandDescription)
+
+const russiaDescription = describeCountry(`Rusia`,30,`Moscova`)
+console.log(russiaDescription)
+
+
+
+/*const country = 'Romania'
 const continent = "Europe"
 let population = 19
 let isIsland = false
 const language = 'Romana'
+const capitalCity =`Bucuresti`
 
 console.log(country)
 console.log(continent)
@@ -14,8 +32,8 @@ console.log(halfPopulation)
 console.log(population > 6)
 console.log(population < 33)
 
-
-const description = `${country} is in europe and its ${population} milion people speak ${language}`
+/*
+/*const description = `${country} is in europe and its ${population} milion people speak ${language}`
 
 console.log(description)
 
@@ -56,8 +74,8 @@ switch (language) {
     break;
 
     default:
-    console.log(`Great language too:D `)
-}
+    console.log(`Great language too:D `)*/
+
 /*console.log (`9`-`5`)
 console.log(`19`-`13`+`17`)
 console.log(`19`-`13`+ 17)
