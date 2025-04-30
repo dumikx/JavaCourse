@@ -1,6 +1,6 @@
 'use strict '
 
-function logger() {
+/*function logger() {
     console.log(`My name is Jonas`);
 
 }
@@ -22,4 +22,19 @@ const appleOrangeJuice = fruitProcessor(2,4);
 console.log(appleOrangeJuice)
 
 const num= Number(`23`);
-console.log(num)
+console.log(num)*/
+
+
+//function declaration
+function calcAge1(birthYear) {;
+    return 2037 - birthYear;
+}
+
+  
+//function expression
+const calcage2 = function (birthYear) {
+    return 2037 - birthYear;
+}
+
+const age2 = calcage2(1991);
+console.log (age1,age2)
