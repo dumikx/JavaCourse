@@ -1,4 +1,4 @@
-function describeCountry (country,population,capitalCity) {
+/*function describeCountry (country,population,capitalCity) {
     const asiString = `${country} has ${population} milion people and its 
     capital city is ${capitalCity}`
     return asiString;
@@ -13,6 +13,7 @@ console.log(finlandDescription)
 const russiaDescription = describeCountry(`Rusia`,30,`Moscova`)
 console.log(russiaDescription)
 
+*/
 
 
 /*const country = 'Romania'
@@ -30,9 +31,9 @@ let halfPopulation = (population / 2)
 halfPopulation++
 console.log(halfPopulation)
 console.log(population > 6)
-console.log(population < 33)
+console.log(population < 33)*/
 
-/*
+
 /*const description = `${country} is in europe and its ${population} milion people speak ${language}`
 
 console.log(description)
@@ -93,3 +94,32 @@ if (numNeighbours === 1) {
     console.log(`No borders`)
 }*/
 
+/*function percentageOfWorld1 (population) {
+    return population / 7900 * 100
+};
+
+const chinaPopulation = percentageOfWorld1 (1411);
+console.log(chinaPopulation);
+
+const russiaPopulation = percentageOfWorld1 (143);
+console.log(russiaPopulation);
+
+const romaniaPopulation = percentageOfWorld1 (22);
+console.log(romaniaPopulation);
+
+const percentageOfWorld2 = function (population) {
+   return population / 7900 * 100
+};
+
+const percentageofworld3 = (population) => population / 7900 * 100;
+const mamaPopulation = percentageofworld3 (11111)
+console.log(mamaPopulation)
+
+const country1Population = percentageOfWorld2 (123);
+console.log (country1Population);
+
+const country2Population = percentageOfWorld2 (1211);
+console.log (country2Population);
+
+const countr3Population = percentageOfWorld2 (1);
+console.log (countr3Population); */

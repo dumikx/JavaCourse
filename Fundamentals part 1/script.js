@@ -230,11 +230,11 @@ switch (day) {
         console.log(`Not a valid day`)
 }*/
 
-const age=15;
-/*
+/*const age=15;
+
 age >= 18 ? console.log(`I like to drink wine`) : 
             console.log(`i Like to drink water`);
-*/
+
 
  const drink = age >= 18 ? `wine` : `water`;
  console.log(drink);
@@ -248,4 +248,4 @@ age >= 18 ? console.log(`I like to drink wine`) :
 
 console.log(drink2)
 
-console.log(`i like to drink ${ age >= 18 ? `win`:`water`}`)
+console.log(`i like to drink ${ age >= 18 ? `win`:`water`}`)*/
