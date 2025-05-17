@@ -94,32 +94,42 @@ if (numNeighbours === 1) {
     console.log(`No borders`)
 }*/
 
-/*function percentageOfWorld1 (population) {
+function percentageOfWorld1(population) {
     return population / 7900 * 100
 };
 
-const chinaPopulation = percentageOfWorld1 (1411);
+const chinaPopulation = percentageOfWorld1(1411);
 console.log(chinaPopulation);
 
-const russiaPopulation = percentageOfWorld1 (143);
+const russiaPopulation = percentageOfWorld1(143);
 console.log(russiaPopulation);
 
-const romaniaPopulation = percentageOfWorld1 (22);
+const romaniaPopulation = percentageOfWorld1(22);
 console.log(romaniaPopulation);
 
 const percentageOfWorld2 = function (population) {
-   return population / 7900 * 100
+    return population / 7900 * 100
 };
 
 const percentageofworld3 = (population) => population / 7900 * 100;
-const mamaPopulation = percentageofworld3 (11111)
+const mamaPopulation = percentageofworld3(11111)
 console.log(mamaPopulation)
 
-const country1Population = percentageOfWorld2 (123);
-console.log (country1Population);
+const country1Population = percentageOfWorld2(123);
+console.log(country1Population);
 
-const country2Population = percentageOfWorld2 (1211);
-console.log (country2Population);
+const country2Population = percentageOfWorld2(1211);
+console.log(country2Population);
 
-const countr3Population = percentageOfWorld2 (1);
-console.log (countr3Population); */
+const country3Population = percentageOfWorld2(1);
+console.log(country3Population);
+
+
+
+function describePopulation(country, population) {
+    const popPercentage = percentageOfWorld1(population)
+    const stringPopulation = `${country} has a ${population} milion people, which is about ${popPercentage}of the world`
+    return stringPopulation
+}
+
+console.log(describePopulation("china", 1000))
