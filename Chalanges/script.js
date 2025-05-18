@@ -21,22 +21,27 @@ if (bmiMark>bmiJohn){console.log(`Mark's BMI (${bmiMark.toFixed(1)})is higher th
 
 */
 
-let averageDolphins=(96,108,89)/3;
-let averageKoalas=(88,91,110)/3;
+let averageDolphins = (96, 108, 89) / 3;
+let averageKoalas = (88, 91, 110) / 3;
 
-const winnerDolphins=averageDolphins>averageKoalas;
-const winnerKoalas=averageKoalas>averageDolphins;
-const draw = averageDolphins===averageKoalas;
-const bothTeamsMinScore= averageDolphins >= 100 && averageKoalas >= 100
+const winnerDolphins = averageDolphins > averageKoalas;
+const winnerKoalas = averageKoalas > averageDolphins;
+const draw = averageDolphins === averageKoalas;
+const bothTeamsMinScore = averageDolphins >= 100 && averageKoalas >= 100
 const minScore = 100
 
 
-if (winnerDolphins && averageDolphins>=100){
+if (winnerDolphins && averageDolphins >= 100) {
     console.log(`WinnerDolphins`)
-} else if (winnerKoalas && averageKoalas>=100){
+} else if (winnerKoalas && averageKoalas >= 100) {
     console.log(`WinnerKoalas`)
-} else if (draw && bothTeamsMinScore){
+} else if (draw && bothTeamsMinScore) {
     console.log(`Draw! Both win`)
-} else if (!bothTeamsMinScore){
+} else if (!bothTeamsMinScore) {
     console.log(`No winner`)
 }
+
+function calcAverageDolphins(score1, score2, score3) => (score1 + score2 + score3) / 3
+
+const rezultate = calcAverageDolphins(1, 4, 5)
+console.log()
