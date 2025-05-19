@@ -21,7 +21,7 @@ if (bmiMark>bmiJohn){console.log(`Mark's BMI (${bmiMark.toFixed(1)})is higher th
 
 */
 
-let averageDolphins = (96, 108, 89) / 3;
+/*let averageDolphins = (96, 108, 89) / 3;
 let averageKoalas = (88, 91, 110) / 3;
 
 const winnerDolphins = averageDolphins > averageKoalas;
@@ -39,9 +39,22 @@ if (winnerDolphins && averageDolphins >= 100) {
     console.log(`Draw! Both win`)
 } else if (!bothTeamsMinScore) {
     console.log(`No winner`)
+} */
+
+const calcAverage = (score1, score2, score3) => (score1 + score2 + score3) / 3
+
+const averageDolphins = calcAverage(44,23,71)
+const averageKoalas = calcAverage(65,54,49)
+
+function checkWinner (averageDolphins,averageKoalas){
+    
+    if (averageDolphins>2*averageKoalas) {
+        console.log(`Dolphins win (${averageDolphins} vs ${averageKoalas})`)
+    } else 
+    if (averageKoalas>2*averageDolphins) {
+        console.log(`Koalas win (${averageKoalas} vs ${averageDolphins})`)
+    } else 
+        console.log("No team wins");
 }
 
-function calcAverageDolphins(score1, score2, score3) => (score1 + score2 + score3) / 3
-
-const rezultate = calcAverageDolphins(1, 4, 5)
-console.log()
+checkWinner(averageKoalas,averageDolphins)
